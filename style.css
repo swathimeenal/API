@@ -1,3 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: blue;
+    height: 4em;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 1em;
+    padding-left: 2em !important;
+    color: white;
+    z-index: 1;
+    top: 0;
+    font-size: 1.2rem;
+}
+
 body{
     display : flex;
     flex-direction: row;
@@ -13,3 +31,18 @@ body{
     background-color: aqua !important;
     border-radius: none !important;
 }
+.card-body{
+    background-color: white !important;
+}
+#cards{
+    margin: 3rem !important;
+    margin-top: 7rem !important;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h5{
+    font-size: 1.1rem !important;
+}
+    
