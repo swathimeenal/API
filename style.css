@@ -1,21 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
 }
-.nav{
-    background-color: blue;
-    height: 4em;
-    width: 100%;
-    position: fixed;
-    margin: 0;
-    padding: 1em;
-    padding-left: 2em !important;
-    color: white;
-    z-index: 1;
-    top: 0;
-    font-size: 1.2rem;
-}
-
 body{
     display : flex;
     flex-direction: row;
@@ -23,7 +10,7 @@ body{
     justify-content: center;
     align-items: flex-start;
 }
-.card{
+.car-body{
     margin-top: 30px;
     margin-left: 30px;
     height: 300px;
@@ -31,18 +18,3 @@ body{
     background-color: aqua !important;
     border-radius: none !important;
 }
-.card-body{
-    background-color: white !important;
-}
-#cards{
-    margin: 3rem !important;
-    margin-top: 7rem !important;
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-h5{
-    font-size: 1.1rem !important;
-}
-    
